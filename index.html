@@ -12,9 +12,7 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
 .hero{background:#602B7A;padding:40px 40px 36px;position:relative;overflow:hidden;}
 .hgrid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:28px 28px;}
 .lrow{display:flex;align-items:center;gap:14px;margin-bottom:36px;position:relative;}
-.lrow img{height:26px;width:auto;}
-.lrow img.invert{filter:brightness(0) invert(1);}
-.lrow img.blend{mix-blend-mode:multiply;}
+.lrow img{height:26px;width:auto;filter:brightness(0) invert(1);}
 .lsep{color:rgba(255,255,255,.4);font-size:20px;font-weight:300;}
 .bfree{margin-left:auto;background:#b4ff50;color:#2a0a3a;font-size:11px;font-weight:800;padding:5px 12px;border-radius:20px;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;}
 .htag{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#e8c8f8;font-size:11px;font-weight:600;padding:4px 14px;border-radius:20px;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:18px;position:relative;}
@@ -23,10 +21,10 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
 .hsub{font-size:14px;color:rgba(255,255,255,.75);line-height:1.65;position:relative;margin-bottom:28px;max-width:480px;}
 .hpills{display:flex;gap:10px;flex-wrap:wrap;position:relative;}
 .pill{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:7px 13px;color:#fff;font-size:12px;font-weight:500;}
-.body{background:#fff;padding:36px 40px;}
+.bd{background:#fff;padding:36px 40px;}
 .greet{font-size:14px;color:#555;margin-bottom:22px;line-height:1.7;}
 .greet strong{color:#222;}
-.div{height:1px;background:#f0f0f0;margin:24px 0;}
+.dv{height:1px;background:#f0f0f0;margin:24px 0;}
 .slabel{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#602B7A;margin-bottom:12px;}
 .acard{background:#faf7fc;border:1px solid #e8d8f0;border-left:3px solid #602B7A;border-radius:0 10px 10px 0;padding:18px 20px;margin-bottom:26px;}
 .acard p{font-size:13px;color:#555;line-height:1.75;}
@@ -47,7 +45,6 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
 .fbrand img{height:22px;width:auto;filter:brightness(0) invert(1);}
 .fcontact{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;}
 .fci{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,.65);}
-.fci .ic{font-size:14px;}
 .fbot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);}
 .fcitec{display:flex;align-items:center;gap:6px;}
 .fcitec img{height:15px;width:auto;filter:brightness(0) invert(1);opacity:.35;}
@@ -60,9 +57,9 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
   <div class="hero">
     <div class="hgrid"></div>
     <div class="lrow">
-      <img src="IMAGES/LOGO_ALGORITHMICS.png" alt="Algorithmics" class="invert">
+      <img src="IMAGES/LOGO_ALGORITHMICS.png" alt="Algorithmics">
       <div class="lsep">×</div>
-      <img src="IMAGES/LOGO_CITEC.png" alt="CITEC" class="blend">
+      <img src="IMAGES/LOGO_CITEC.png" alt="CITEC">
       <div class="bfree">Gratis</div>
     </div>
     <div class="htag">Junior Tech Day · Verano 2026</div>
@@ -75,9 +72,9 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
     </div>
   </div>
 
-  <div class="body">
+  <div class="bd">
     <p class="greet">Estimados socios,<br><br>El verano se acerca y desde <strong>CITEC</strong> queremos proponerte algo especial para el día en que los hijos visitan la empresa: convertirlo en una experiencia que no van a olvidar.</p>
-    <div class="div"></div>
+    <div class="dv"></div>
     <div class="slabel">¿Quiénes son?</div>
     <div class="acard">
       <p><strong>Algorithmics</strong> es una escuela internacional de programación para niños y jóvenes, presente en más de <strong>+90 países</strong> y con más de <strong>1'000.000 de estudiantes</strong> en el mundo. Su propuesta es simple y poderosa: los niños no aprenden <em>sobre</em> tecnología — aprenden a <strong>crear con tecnología</strong>.</p>
@@ -103,13 +100,13 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
       <img src="IMAGES/LOGO_ALGORITHMICS.png" alt="Algorithmics">
     </div>
     <div class="fcontact">
-      <div class="fci"><span class="ic">📞</span> +593 998 080 193</div>
-      <div class="fci"><span class="ic">✉️</span> qc-cumbaya@alg.academy</div>
+      <div class="fci"><span>📞</span> +593 998 080 193</div>
+      <div class="fci"><span>✉️</span> qc-cumbaya@alg.academy</div>
     </div>
     <div class="fbot">
       <div class="fcitec">
         <span>Avalado por</span>
-        <img src="IMAGES/LOGO_CITEC.png" alt="CITEC" class="blend">
+        <img src="IMAGES/LOGO_CITEC.png" alt="CITEC">
       </div>
       <div class="fright">Solo para empresas socias CITEC<br>Quito · Ecuador</div>
     </div>
