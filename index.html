@@ -56,8 +56,13 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
 .fci{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,.65);}
 .fbot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);}
 .fcitec{display:flex;align-items:center;gap:6px;}
-.fcitec img{height:15px;width:auto;filter:brightness(0) invert(1);opacity:.35;}
 .fcitec span{font-size:11px;color:rgba(255,255,255,.25);}
+.fcitec img {
+  height: 15px;
+  width: auto;
+  mix-blend-mode: multiply; /* Borra el fondo blanco */
+  opacity: 0.8; /* Le subimos un poco la opacidad para que no desaparezca tanto */
+}
 .fright{font-size:11px;color:rgba(255,255,255,.25);text-align:right;line-height:1.7;}
 </style>
 </head>
@@ -113,10 +118,10 @@ body{background:#f0f0f0;font-family:'Inter',Arial,sans-serif;}
       <div class="fci"><span>✉️</span> qc-cumbaya@alg.academy</div>
     </div>
     <div class="fbot">
-      <div class="fcitec">
-        <span>Avalado por</span>
-        <img src="IMAGES/LOGO_CITEC.png" alt="CITEC">
-      </div>
+        <div class="fcitec">
+          <span>Avalado por</span>
+          <img src="IMAGES/LOGO_CITEC.png" alt="CITEC">
+        </div>
       <div class="fright">Solo para empresas socias CITEC<br>Quito · Ecuador</div>
     </div>
   </div>
